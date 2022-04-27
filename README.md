@@ -32,5 +32,5 @@ Output:
 Two scalars: f_concentration[0], f_dconcentration[0]
 
 
-[1] [1]	A. Khawam and D. R. Flanagan, “Solid-state kinetic models: basics and mathematical fundamentals,” The journal of physical chemistry B, vol. 110, no. 35, pp. 17315–17328, 2006.
+[1]	A. Khawam and D. R. Flanagan, “Solid-state kinetic models: basics and mathematical fundamentals,” The journal of physical chemistry B, vol. 110, no. 35, pp. 17315–17328, 2006.
 
