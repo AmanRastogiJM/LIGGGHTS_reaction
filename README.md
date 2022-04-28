@@ -12,10 +12,10 @@ fix command
 fix id group reaction initial_concentration C0 pre_exponent A activation_energy Ea maximum_conversion Cmax model type exponent keywords args
 
 keywords
-  model #default=0
-    -type values = 0 or 1 or 2
-    -exponent values should be positive      
-  heat_reaction #calculate heat reaction flag, default=no 
+  - model #default=0
+   - type values = 0 or 1 or 2
+   - exponent values should be positive      
+  - heat_reaction #calculate heat reaction flag, default=no 
     -values = yes or no
     -if yes, then H_R (heat of reaction in J/g) has to be provided	
 
