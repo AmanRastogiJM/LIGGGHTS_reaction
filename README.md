@@ -9,13 +9,14 @@ Most of the reaction models in [1] fall into one of these categories:
 
 **fix command**
 
-fix id group reaction initial_concentration C0 pre_exponent A activation_energy Ea maximum_conversion Cmax model type exponent keywords args
+|**fix id** group reaction initial_concentration C0 pre_exponent A activation_energy Ea maximum_conversion Cmax model type exponent keywords args|
+|:---|
 
 **keywords**
-  1. model #default=0
-   - type values = 0 or 1 or 2
+  1. _model_ #default=0
+   - _type_ values = 0 or 1 or 2
    - exponent values should be positive      
-  2. heat_reaction #calculate heat reaction flag, default=no 
+  2. _heat_reaction_ #calculate heat reaction flag, default=no 
    - values = yes or no
    - if yes, then H_R (heat of reaction in J/g) has to be provided	
 
