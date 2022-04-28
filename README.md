@@ -2,10 +2,10 @@
 
 Solid state reaction models for a single reactant. Reaction progression is modelled through alpha, extent of reaction. More details can be found in [1]. 
 
-Most of the reaction models in [1] fall into one of these categories.
-i)pow(alpha,n) - Type 1
-ii)pow(1-alpha,n) - Type 2
-iii)n*(1-alpha)*pow((-ln(1-alpha)),(1-1/n)) - Type 3
+Most of the reaction models in [1] fall into one of these categories:
+  - (alpha)^n - Type 1
+  - (1-alpha)^n - Type 2
+  - n(1-alpha)(-ln(1-alpha))^(1-1/n) - Type 3
 
 fix command
 
@@ -13,11 +13,11 @@ fix id group reaction initial_concentration C0 pre_exponent A activation_energy 
 
 keywords
   model #default=0
-    type values = 0 or 1 or 2
-    exponent values should be positive      
+    -type values = 0 or 1 or 2
+    -exponent values should be positive      
   heat_reaction #calculate heat reaction flag, default=no 
-  values = yes or no
-  if yes, then H_R (heat of reaction in J/g) has to be provided	
+    -values = yes or no
+    -if yes, then H_R (heat of reaction in J/g) has to be provided	
 
 Example:
 
